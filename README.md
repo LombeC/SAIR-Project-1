@@ -12,7 +12,7 @@ cd ~/catkin_ws/src/du_chileshe_lombe/
 ```
 Alternatively, you can pull it from github
 ```bash
-    git clone https://github.com/LombeC/SAIR-Project-1.git
+git clone https://github.com/LombeC/SAIR-Project-1.git
 ```
 3. Navigate to the catkin folder and build the project
 ```bash
