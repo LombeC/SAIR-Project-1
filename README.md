@@ -1,7 +1,5 @@
 # Project 1 - Task 3
-### Lombe Chileshe
-#### 873408139
-
+### Lombe
 
 ### **Compiling and running du_chileshe_lombe**
 
