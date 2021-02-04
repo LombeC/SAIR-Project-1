@@ -92,7 +92,8 @@ void move_turtle(double speed, double distance){
         pub.publish(msg);
         double finish = ros::Time::now().toSec();
         distance_moved = speed * (finish - start); // calculate the distance moved in each iteration
-        //minimal close loop control to improve accuracy
+
+        //close loop control to improve accuracy
         if (pose.x <= 0 || pose.x >= 11)
         {
             ROS_WARN("Hitting the wall");
